@@ -1,0 +1,99 @@
+:root {
+	--backgd: #FFFAE7;
+	--bigFont: #3B230A;
+  --smallFont: ;
+  --quote: #C2D2BD;
+  --signUpBox: #C8A977;
+  --signUpText: white; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+background-color: var(--backgd);
+text-align: center;
+width: 100%;
+margin:auto;
+}
+
+.container{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 52px;
+}
+
+.navbar{
+  padding: 208px;
+  border: 4px solid brown;
+}
+
+.navbar, h1{
+color: var(--bigFont);
+font-size: 24px;
+padding: 8px;
+}
+
+.navbar, ul{
+  font-size: 18px;
+  list-style-type: none
+
+}
+
+.section1{
+  border: 4px solid brown
+}
+
+.h2{
+  font-size: 38px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p1{
+  font-size: 18px;
+}
+
+
+.main-img{
+  width: 522px;
+  height: auto;
+}
+
+.section2{
+  border: 4px solid brown;
+  
+}
+
+img{
+    width: 168px;
+    height: 168px;
+  }
+
+.section3{
+  border: 4px solid brown;
+}
+
+
+.section4{
+  border: 4px solid brown;
+  display: flex;
+  justify-content: baseline;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #C2D2BD;
+}
